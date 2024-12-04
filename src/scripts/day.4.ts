@@ -52,8 +52,8 @@ for (let row = 0; row < numRows; row++) {
         checkDirection(row, col, -1, -1) || // Diagonal up-left
         checkDirection(row, col, 0, -1) || // Horizontal left
         checkDirection(row, col, -1, 0) || // Vertical up
-        checkDirection(row, col, -1 , +1 )||// Diagonal up-right 
-        checkDirection(row,+col,+ + ,-)//Diagonal down-left 
+) {count++;
+    }
 ) {count++;
     }
   }
