@@ -26,7 +26,7 @@ jobs:
       # Step 4: Compile TypeScript
       - name: Compile TypeScript
         run: |
-          tsc src/main.ts
+          tsc --project tsconfig.json
 
       # Step 5: Run Node.js Script
       - name: Run Node.js Script
